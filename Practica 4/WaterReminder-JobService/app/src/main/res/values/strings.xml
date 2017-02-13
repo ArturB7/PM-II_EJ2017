@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">"Hydration Reminder"</string>
+
+    <!-- Strings para el MainActivity -->
+    <string name="instructions">
+        Haz tap en el vaso de agua una vez que te hayas hidratado.</string>
+    <string name="water_increment_content_desc">Presiona para registrar que tomaste agua</string>
+    <string name="charging_plug_content_desc">imagen de cargador conectado</string>
+
+    <string name="default_water_count">0</string>
+    <string name="default_charge_notification_count">Hidratate mientras cargas recordatorio enviado 0 veces</string>
+
+    <plurals name="charge_notification_count">
+        <item quantity="zero">Hidratate mientras cargas recordatorio enviado %d veces</item>
+        <item quantity="one">Hidratate mientras cargas recordatorio enviado %d vez</item>
+        <item quantity="other">Hidratate mientras cargas recordatorio enviado %d veces</item>
+    </plurals>
+
+
+    <!-- Strings for Notifications and Toasts -->
+    <string name="water_chug_toast">GLU...GLU...GLU</string>
+
+    <string name="charging_reminder_notification_title">Dispositivo cargando - A tomar agua!</string>
+    <string name="charging_reminder_notification_body">No hay mejor tiempo para tomar agua que cuando tu cel esta cargando. A tomar agua!</string>
+
+</resources>
